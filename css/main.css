@@ -13,6 +13,7 @@ html {
 h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .link-card:hover{
@@ -24,16 +25,60 @@ h2 {
   border-width: 3px;
   border-style: solid;
   border-color: #9a816d;
+  border-radius: 3px;
   padding: .4em .75em .5em;
   background-color: #dcd4cd;
 }
 
 .btn {
-  background-color: #785439;
+  background-color: #9a816d;
   color: #f0eee8;
   text-align: center;
   padding: 1rem;
   display: inline-block;
   vertical-align: middle;
   border-radius: 8px;
+  font-family: Dosis, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #785439;
+  text-align: center;
+}
+
+.beetle {
+  display: inline-block;
+}
+
+dd {
+  font-style: italic;
+}
+
+hr {
+border: 0;
+border-top: 2px solid #9a816d;
+margin-bottom: 1rem;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
+}
+
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
 }
