@@ -3,7 +3,7 @@ html {
   background-color: #f0eee8;
   line-height: 1.5;
   box-sizing: border-box;
-  color: #785439;
+  color: #512200;
 }
 
 *, *::before, *::after {
@@ -15,6 +15,7 @@ html {
   font-size: 1.5rem;
   font-weight: bold;
   color: #512200;
+  margin-top: .5rem;
 }
 
 .link-card:hover {
@@ -25,7 +26,7 @@ html {
   display: inline-block;
   border-width: 3px;
   border-style: solid;
-  border-color: #cabdb2;
+  border-color: #9a816d;
   border-radius: 3px;
   padding: .4em .75em .5em;
   background-color: #dcd4cd;
@@ -35,13 +36,14 @@ html {
   background-color: #785439;
   color: #f0eee8;
   text-align: center;
-  padding: 1rem;
+  padding: .75rem 1.5rem;
   display: inline-block;
   vertical-align: middle;
   border-radius: 8px;
   font-family: Dosis, sans-serif;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.125rem;
 }
 
 .btn:hover {
@@ -74,6 +76,7 @@ dt {
   width: 50%;
   padding: 0;
   margin: 0;
+  font-size: .875rem;
 }
 
 dd {
@@ -82,6 +85,7 @@ dd {
   padding: 0;
   margin: 0;
   font-style: italic;
+  font-size: .875rem;
 }
 
 .wrapper {
