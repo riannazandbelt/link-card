@@ -1,0 +1,39 @@
+html {
+  font-family: Georgia, serif;
+  background-color: #f0eee8;
+  line-height: 1.5;
+  box-sizing: border-box;
+  color: #785439;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+}
+
+.link-card:hover{
+  background-color: #9a816d;
+}
+
+.link-card {
+  display: inline-block;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  padding: .4em .75em .5em;
+  background-color: #dcd4cd;
+}
+
+.btn {
+  background-color: #785439;
+  color: #f0eee8;
+  text-align: center;
+  padding: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 8px;
+}
