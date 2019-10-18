@@ -48,7 +48,7 @@ dl {
   width: 100%;
   overflow: hidden;
   padding: 0;
-  margin: 1rem;
+  margin: .75rem;
 }
 
 dt {
@@ -97,4 +97,5 @@ dd {
 
 a {
   text-decoration: none;
+  color: #512200;
 }
