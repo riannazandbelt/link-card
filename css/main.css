@@ -36,17 +36,19 @@ html {
   display: inline-block;
 }
 
-hr {
+.one {
   border: 0;
   border-top: 2px solid #cabdb2;
+  border-bottom: 2px solid #cabdb2;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 dl {
   width: 100%;
   overflow: hidden;
   padding: 0;
-  margin: 0;
+  margin: 1rem;
 }
 
 dt {
@@ -91,4 +93,8 @@ dd {
   vertical-align: middle;
   align-items: center;
   align-self: center;
+}
+
+a {
+  text-decoration: none;
 }
